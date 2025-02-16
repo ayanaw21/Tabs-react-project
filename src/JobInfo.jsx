@@ -1,5 +1,5 @@
 import React from 'react'
-import Duties from '../Duties';
+import Duties from './Duties';
 
 const JobInfo = ({jobs,currentItem}) => {
     const { company , dates,duties, title} = jobs[currentItem];
